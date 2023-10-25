@@ -1,0 +1,71 @@
+
+
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    padding-bottom: 20px;
+}
+
+#main h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#types p{
+    font-family:'Press Start 2P', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#types{
+    text-align: center;
+    width:600px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: #0E3D59;
+}
+
+#convert{
+    width: 80%;
+    padding: 5px;
+    font-size: 15px;
+    font-family:'Press Start 2P', cursive;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: black;
+}
+
+#convert:hover{
+    border-color: #05F29B;
+}
+
+#verificador{
+    padding-top: 15px ;
+    display: block;
+    margin: 0 auto;
+}
+
+#verificador button{
+    font-family: 'Press Start 2P', cursive;
+    border-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:#05F29B;
+}
+
+#verificador button:hover{
+    background-color: #05f240;
+}
