@@ -1,16 +1,12 @@
-
-
-
-#main{
+#header{
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 100px;
+    margin-top: 50px;
     padding-bottom: 20px;
 }
-
-#main h1{
+#header h1{
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -24,8 +20,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-
 }
 
 #types{
@@ -43,8 +37,8 @@
     font-family:'Press Start 2P', cursive;
     box-sizing: border-box;
     border-radius: 10px;
-    border-width: 5px;
     border-color: black;
+    border: solid 5px;
 }
 
 #convert:hover{
@@ -57,7 +51,7 @@
     margin: 0 auto;
 }
 
-#verificador button{
+/* #verificador button{
     font-family: 'Press Start 2P', cursive;
     border-color: black;
     padding: 10px 20px;
@@ -68,4 +62,4 @@
 
 #verificador button:hover{
     background-color: #05f240;
-}
+} */
